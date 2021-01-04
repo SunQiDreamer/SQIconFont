@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SQIconFont_Example' do
+  pod 'SQIconFont', :path => '../'
+
+  target 'SQIconFont_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

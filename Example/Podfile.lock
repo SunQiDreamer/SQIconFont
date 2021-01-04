@@ -1,0 +1,16 @@
+PODS:
+  - SQIconFont (0.1.0)
+
+DEPENDENCIES:
+  - SQIconFont (from `../`)
+
+EXTERNAL SOURCES:
+  SQIconFont:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SQIconFont: 1457ba2da3c119c4fff3df19ccd160c07119ebf7
+
+PODFILE CHECKSUM: 9c2266db0272e9f381d12406c4534739b7928154
+
+COCOAPODS: 1.10.0

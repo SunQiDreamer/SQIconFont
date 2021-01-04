@@ -7,6 +7,7 @@
 //
 
 #import "SQViewController.h"
+#import <SQIconFont/SQIcon.h>
 
 @interface SQViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    UIImage *image = [SQIcon iconWithName:@"news_search" size:16 color:UIColor.redColor];
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 50, 50)];
+    imageView.image = image;
+    [self.view addSubview:imageView];
+    
 }
 
 - (void)didReceiveMemoryWarning

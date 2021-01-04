@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C3D7EFA25A31E3C00B98724 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C3D7EF925A31E3C00B98724 /* iconfont.ttf */; };
 		2CE3591DEA2EE413BEE62BDD /* Pods_SQIconFont_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF02F11A0229F586D1DCF58 /* Pods_SQIconFont_Example.framework */; };
 		5438FB126E6F80482F351463 /* Pods_SQIconFont_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34DFF2915250FF0BC497DEB /* Pods_SQIconFont_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C3D7EF925A31E3C00B98724 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		4339B0B7FF764EECB5D90F1B /* Pods-SQIconFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQIconFont_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SQIconFont_Tests/Pods-SQIconFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SQIconFont_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQIconFont_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,13 +59,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		671EABE8C3582F7D9E95C88C /* SQIconFont.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SQIconFont.podspec; path = ../SQIconFont.podspec; sourceTree = "<group>"; };
+		671EABE8C3582F7D9E95C88C /* SQIconFont.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SQIconFont.podspec; path = ../SQIconFont.podspec; sourceTree = "<group>"; };
 		6CE3D5EA26291C8411A38B08 /* Pods-SQIconFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQIconFont_Tests.release.xcconfig"; path = "Target Support Files/Pods-SQIconFont_Tests/Pods-SQIconFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		80C42126D720166D7D27DFDF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		80C42126D720166D7D27DFDF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88C93B60F617F1B26F08562C /* Pods-SQIconFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQIconFont_Example.debug.xcconfig"; path = "Target Support Files/Pods-SQIconFont_Example/Pods-SQIconFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CA1BD63F73C6D2036E3D60D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CA1BD63F73C6D2036E3D60D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EEF02F11A0229F586D1DCF58 /* Pods_SQIconFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQIconFont_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8B4FC0477FB52A5713A091 /* Pods-SQIconFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQIconFont_Example.release.xcconfig"; path = "Target Support Files/Pods-SQIconFont_Example/Pods-SQIconFont_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F34DFF2915250FF0BC497DEB /* Pods_SQIconFont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQIconFont_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +134,7 @@
 		6003F593195388D20070C39A /* Example for SQIconFont */ = {
 			isa = PBXGroup;
 			children = (
+				2C3D7EF925A31E3C00B98724 /* iconfont.ttf */,
 				6003F59C195388D20070C39A /* SQAppDelegate.h */,
 				6003F59D195388D20070C39A /* SQAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +196,6 @@
 				4339B0B7FF764EECB5D90F1B /* Pods-SQIconFont_Tests.debug.xcconfig */,
 				6CE3D5EA26291C8411A38B08 /* Pods-SQIconFont_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +283,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				2C3D7EFA25A31E3C00B98724 /* iconfont.ttf in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

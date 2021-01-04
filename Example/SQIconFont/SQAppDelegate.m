@@ -7,12 +7,51 @@
 //
 
 #import "SQAppDelegate.h"
+#import <SQIconFont/SQIconFontConfig.h>
 
 @implementation SQAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    SQIconFontConfig.shareInstance.map = @{
+        @"news_search"              :@"\U0000E707",
+        @"mine_center_order"        :@"\U0000e70f",
+        @"mine_center_calendar"     :@"\U0000e70d",
+        @"mine_center_bookmark"     :@"\U0000e70e",
+        @"mine_center_share"        :@"\U0000e715",
+        @"mine_center_setting"      :@"\U0000e70c",
+        @"mine_center_gift"         :@"\U0000e722",
+        @"mine_center_invitation"   :@"\U0000E6AE",
+        @"tab_bar_news"             :@"\U0000e70a",
+        @"tab_bar_window"           :@"\U0000e709",
+        @"tab_bar_voice"            :@"\U0000e70b",
+        @"tab_bar_mine"             :@"\U0000e708",
+        @"tool_bar_back"            :@"\U0000e713",
+        @"icon_close"               :@"\U0000e714",
+        @"calendar_picker_next"     :@"\U0000e720",
+        @"calendar_picker_front"    :@"\U0000e71f",
+        @"calendar_btn_icon"        :@"\U0000e71e",
+        @"calendar_bell_icon"       :@"\U0000e721",
+        
+        @"tabbar_home_normal"       :@"\U0000E734",
+        @"tabbar_home_selected"     :@"\U0000E735",
+        
+        @"tabbar_news_normal"       :@"\U0000E736",
+        @"tabbar_news_selected"     :@"\U0000E737",
+        
+        @"tabbar_discover_normal"   :@"\U0000E728",
+        @"tabbar_discover_selected" :@"\U0000E72B",
+        
+        @"tabbar_mine_normal"       :@"\U0000E708",
+        @"tabbar_mine_selected"     :@"\U0000E72A",
+        @"icon_arrow"               :@"\U0000E711",
+        @"icon_clear_btn"           :@"\U0000E71D",
+        @"icon_tracking_common"     :@"\U0000E732",
+        @"icon_tracking_add"        :@"\U0000E731",
+    };
+    
     return YES;
 }
 
